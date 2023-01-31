@@ -11,3 +11,4 @@ A Cabover Kei Truck inspired Mod for the Ibishu Pigeon in BeamNG.Drive
 - [ ] Fix the front Jbeam to deform properly
 - [ ] Add space for the engine
 - [ ] Fix the front fender flares
+- [ ] Add the windows
