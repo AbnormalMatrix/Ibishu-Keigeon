@@ -1,0 +1,42 @@
+{
+"pigeon_kei_grille": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Kei Grille",
+        "value":25,
+    },
+    "slotType" : "pigeon_kei_grille",
+    "slots": [
+        ["type", "default", "description"],
+        ["pigeon_kei_lettering_F","pigeon_kei_lettering_F", "Front Grille Badge"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pigeon_kei_grille", ["pigeon_body"]],
+    ],
+},
+"pigeon_kei_lettering_F": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Center Front Grille Badge",
+        "value":5,
+    },
+    "slotType" : "pigeon_kei_lettering_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pigeon_kei_lettering_F", ["pigeon_body"]],
+    ],
+},
+"pigeon_lettering_F_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Corner Front Grille Badge",
+        "value":5,
+    },
+    "slotType" : "pigeon_kei_lettering_F",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pigeon_kei_lettering_F_alt", ["pigeon_body"]],
+    ],
+},
+}

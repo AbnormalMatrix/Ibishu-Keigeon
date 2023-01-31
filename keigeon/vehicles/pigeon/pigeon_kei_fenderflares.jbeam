@@ -1,0 +1,74 @@
+{
+"pigeon_kei_fenderflare_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Fender Flares",
+        "value":25,
+    },
+    "slotType" : "pigeon_fenderflare_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["pigeon_flare_R", ["pigeon_bed"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         {"collision":true},
+         {"selfCollision":true},
+
+         //bed floor
+         {"group":"pigeon_bed"},
+         {"nodeWeight":0.9},
+         ["bd6rr",-0.67,0.8,0.52],
+         ["bd6ll",0.67,0.8,0.52],
+
+         ["bd7rr",-0.67,1.219,0.52],
+         ["bd7ll",0.67,1.219,0.52],
+
+         //bed sides lower
+         {"nodeWeight":0.4},
+         ["bd10rr",-0.67,0.706,0.25],
+         ["bd10ll",0.67,0.706,0.25],
+         ["bd11rr",-0.67,1.314,0.26],
+         ["bd11ll",0.67,1.314,0.26],
+         {"group":""},
+    ],
+},
+"pigeon_kei_fenderflare_F_4w": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Kei Fender Flares",
+        "value":25,
+    },
+    "slotType" : "pigeon_kei_fenderflare_F_4w",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["kei_flare_f", ["pigeon_body"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_PLASTIC"},
+         {"collision":true},
+         {"selfCollision":true},
+
+         //front end
+         {"group":"pigeon_body"},
+         {"nodeWeight":0.3},
+         ["fe3rr",-0.63,-1.36,0.431],
+         ["fe3ll", 0.63,-1.36,0.431],
+
+         //front end sides
+         ["fe5rr",-0.63,-1.25,0.56],
+         ["fe5ll",0.63,-1.25,0.56],
+
+         ["fe8rr",-0.665,-0.94,0.56],
+         ["fe8ll",0.665,-0.94,0.56],
+
+         ["fe9rr",-0.66,-0.77,0.25],
+         ["fe9ll",0.66,-0.77,0.25],
+         {"group":""},
+    ],
+},
+}

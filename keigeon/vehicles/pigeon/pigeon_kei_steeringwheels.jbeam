@@ -1,0 +1,124 @@
+{
+"pigeon_kei_steer": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"2-Spoke Kei Steering Wheel",
+        "value":50,
+    },
+    "slotType" : "pigeon_steer",
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "pigeon_kei_steering_wheel"      , "dsh2","dsh4","dsh3",  {"x":43.1, "y":180, "z":90}, {"x":0, "y":1, "z":0}    , {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1],
+     ],
+},
+"pigeon_steer_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"3-Spoke Steering Wheel",
+        "value":80,
+    },
+    "slotType" : "pigeon_steer",
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "pigeon_steering_wheel_B"      , "dsh2","dsh4","dsh3",  {"x":43.1, "y":180, "z":90}, {"x":0, "y":1, "z":0}    , {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1],
+     ],
+},
+"pigeon_steer_01a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Nomi Mod.301 Racing Wheel",
+        "value":310,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_01a", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+"pigeon_steer_02a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Nomi Mod.307 Racing Wheel",
+        "value":330,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_02a", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+"pigeon_steer_02b": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Nomi Mod.307R Racing Wheel",
+        "value":330,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_02b", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+"pigeon_steer_02c": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Nomi Mod.207R Drift Wheel",
+        "value":250,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_02c", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+"pigeon_steer_03a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Arnida Sportivo Racing Wheel",
+        "value":370,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_03a", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+"pigeon_steer_04a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Arnida Corsa Racing Wheel",
+        "value":400,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_04a", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+"pigeon_steer_05a": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Legno Classico Steering Wheel",
+        "value":440,
+    },
+
+    "slotType" : "pigeon_steer",
+
+    "props": [
+        ["func", "mesh", "idRef:", "idX:", "idY:", "baseRotation", "rotation", "translation", "min", "max", "offset", "multiplier"],
+        ["steering", "steer_05a", "dsh2","dsh4","dsh3",  {"x":-43.1, "y":180, "z":90}, {"x":0, "y":0, "z":1}, {"x":0, "y":0, "z":0}, -1000, 1000, 0, 1, {"baseTranslation":{"x":0.125,"y":-0.012, "z":-0.0}}],
+    ],
+},
+}
