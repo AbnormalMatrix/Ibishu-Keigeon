@@ -1,0 +1,127 @@
+{
+"pigeon_kei_hopper_headlight_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Right Kei Hopper Headlight",
+        "value":40,
+    },
+    "slotType" : "pigeon_kei_headlight_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+
+         {"deformGroup":"headlight_R_break", "deformMaterialBase":"pigeon_glass", "deformMaterialDamaged":"pigeon_glass_dmg"},
+         ["hopper_kei_headlightglass_R", ["pigeon_body"]],
+         {"deformGroup":"headlight_R_break", "deformMaterialBase":"pigeon_lights", "deformMaterialDamaged":"pigeon_lights_dmg"},
+         ["hopper_kei_headlight_R", ["pigeon_body"]],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightColor":{"r":255, "g":255, "b":160, "a":255},
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "lightCastShadows":true,
+            "flareName":"vehicleHeadLightFlare",
+            "cookieName":"art/special/BNG_light_cookie_headlight.dds"
+            "texSize":512,
+            "shadowSoftness":0.5,
+        },
+        //low beams
+        ["lowbeam"    ,     "SPOTLIGHT"        , "fe2r", "fe2rr", "fe1r", {"x":-5, "y":0, "z":6} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.4, "y":0.6, "z":-0.01},"lightRange":50,"lightBrightness":0.3,"lightOuterAngle":75,"flareScale":0.06,"deformGroup":"headlight_R_break"}],
+        //high beams
+        ["highbeam" ,         "SPOTLIGHT"        , "fe2r", "fe2rr", "fe1r", {"x":-3, "y":0, "z":0} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.4, "y":0.6, "z":-0.01},"lightRange":80,"lightBrightness":0.6,"lightOuterAngle":85,"flareScale":0.08,"deformGroup":"headlight_R_break"}],
+    ],
+},
+"pigeon_kei_hopper_headlight_L": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Left Kei Hopper Headlight",
+        "value":40,
+    },
+    "slotType" : "pigeon_kei_headlight_L",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+
+         {"deformGroup":"headlight_L_break", "deformMaterialBase":"pigeon_glass", "deformMaterialDamaged":"pigeon_glass_dmg"},
+         ["hopper_kei_headlightglass_L", ["pigeon_body"]],
+         {"deformGroup":"headlight_L_break", "deformMaterialBase":"pigeon_lights", "deformMaterialDamaged":"pigeon_lights_dmg"},
+         ["hopper_kei_headlight_L", ["pigeon_body"]],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":120,
+            "lightColor":{"r":255, "g":255, "b":160, "a":255},
+            "lightAttenuation":{"x":0, "y":1, "z":1},
+            "lightCastShadows":true,
+            "flareName":"vehicleHeadLightFlare",
+            "cookieName":"art/special/BNG_light_cookie_headlight.dds"
+            "texSize":512,
+            "shadowSoftness":0.5,
+        },
+        //low beams
+        ["lowbeam"    ,     "SPOTLIGHT"        , "fe2l", "fe2ll", "fe1l", {"x":185, "y":0, "z":6} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.4, "y":0.6, "z":0.01},"lightRange":50,"lightBrightness":0.3,"lightOuterAngle":75,"flareScale":0.06,"deformGroup":"headlight_L_break"}],
+        //high beams
+        ["highbeam" ,         "SPOTLIGHT"        , "fe2l", "fe2ll", "fe1l", {"x":183, "y":0, "z":0} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.4, "y":0.6, "z":0.01},"lightRange":80,"lightBrightness":0.6,"lightOuterAngle":85,"flareScale":0.08,"deformGroup":"headlight_L_break"}],
+    ],
+},
+"pigeon_kei_signal_FR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Right Kei Signal",
+        "value":15,
+    },
+    "slotType" : "pigeon_kei_signal_FR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+
+         {"deformGroup":"headlight_R_break", "deformMaterialBase":"pigeon_lights", "deformMaterialDamaged":"pigeon_lights_dmg"},
+         ["pigeon_kei_signal_R", ["pigeon_body"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound1", "deformVolume":0.4}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":150,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":255, "b":10, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["signal_R" ,         "SPOTLIGHT"        , "fe2r", "fe2rr", "fe1r", {"x":-2, "y":0, "z":0} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.35, "y":0.16, "z":0.02},"flareScale":0.03,"lightBrightness":0.04,"deformGroup":"headlight_R_break"}],
+    ],
+},
+"pigeon_kei_signal_FL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Left Kei Signal",
+        "value":15,
+    },
+    "slotType" : "pigeon_kei_signal_FL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+
+         {"deformGroup":"headlight_L_break", "deformMaterialBase":"pigeon_lights", "deformMaterialDamaged":"pigeon_lights_dmg"},
+         ["pigeon_kei_signal_L", ["pigeon_body"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound1", "deformVolume":0.4}],
+         {"deformGroup":""},
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        {
+            "lightInnerAngle":0,
+            "lightOuterAngle":150,
+            "lightRange":8,
+            "lightColor":{"r":255, "g":255, "b":0, "a":255},
+            "lightCastShadows":false,
+            "flareName":"vehicleBrakeLightFlare",
+        },
+        ["signal_L" ,         "SPOTLIGHT"        , "fe2l", "fe2ll", "fe1l", {"x":182, "y":0, "z":0} , {"x":0, "y":0, "z":0}    , {"x":0, "y":0, "z":0}, 0, 0, 0, 1, {"baseTranslation":{"x":0.35, "y":0.16, "z":-0.02},"flareScale":0.03,"lightBrightness":0.04,"deformGroup":"headlight_L_break"}],
+
+    ],
+},
+}
